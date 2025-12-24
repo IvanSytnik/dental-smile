@@ -1,0 +1,8 @@
+.process { background: var(--white); }
+.process-timeline { display: grid; grid-template-columns: repeat(4, 1fr); gap: 2rem; }
+.process-step { text-align: center; padding: 2rem; }
+.step-number { width: 60px; height: 60px; background: linear-gradient(135deg, var(--primary), var(--primary-dark)); color: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; font-weight: 700; margin: 0 auto 1.5rem; font-family: var(--font-display); }
+.process-step h3 { font-family: var(--font-display); font-size: 1.25rem; color: var(--dark); margin-bottom: 0.75rem; }
+.process-step p { color: var(--text-light); font-size: 0.95rem; line-height: 1.6; }
+@media (max-width: 1024px) { .process-timeline { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 640px) { .process-timeline { grid-template-columns: 1fr; } }

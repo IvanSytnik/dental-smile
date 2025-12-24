@@ -1,0 +1,12 @@
+.team { background: var(--cream); }
+.team-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 3rem; }
+.team-card { background: var(--white); border-radius: 24px; overflow: hidden; box-shadow: var(--shadow-md); transition: transform 0.3s; }
+.team-card:hover { transform: translateY(-8px); }
+.team-image { height: 350px; overflow: hidden; }
+.team-image img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s; }
+.team-card:hover .team-image img { transform: scale(1.05); }
+.team-info { padding: 2rem; }
+.team-info h3 { font-family: var(--font-display); font-size: 1.5rem; color: var(--dark); margin-bottom: 0.5rem; }
+.team-role { color: var(--primary); font-weight: 500; margin-bottom: 1rem; }
+.team-info p:last-child { color: var(--text-light); line-height: 1.7; }
+@media (max-width: 768px) { .team-grid { grid-template-columns: 1fr; } }

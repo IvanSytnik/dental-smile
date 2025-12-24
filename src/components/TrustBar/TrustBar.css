@@ -1,0 +1,7 @@
+.trust-bar { background: var(--cream); padding: 2.5rem 2rem; border-bottom: 1px solid rgba(0,0,0,0.05); }
+.trust-container { max-width: 1400px; margin: 0 auto; display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 3rem; }
+.trust-item { display: flex; align-items: center; gap: 1rem; }
+.trust-icon { width: 50px; height: 50px; background: linear-gradient(135deg, var(--primary), var(--primary-dark)); border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; }
+.trust-text { display: flex; flex-direction: column; font-size: 0.9rem; color: var(--text-light); }
+.trust-text strong { color: var(--dark); font-size: 1rem; }
+@media (max-width: 768px) { .trust-container { gap: 1.5rem; } .trust-item { flex-direction: column; text-align: center; } }
