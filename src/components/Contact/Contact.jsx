@@ -3,7 +3,7 @@ import { useLanguage } from '../../context/LanguageContext'
 import './Contact.css'
 
 // ⚠️ ЗАМЕНИ НА СВОЙ URL ПОСЛЕ ДЕПЛОЯ НА RENDER!
-const API_URL = 'https://dental-smile-backend.onrender.com'
+const API_URL = 'https://dental-smile-backend-production.up.railway.app'
 
 function Contact() {
   const { t } = useLanguage()
