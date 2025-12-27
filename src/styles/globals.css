@@ -202,4 +202,19 @@ h1, h2, h3, h4, h5, h6 {
   .section {
     padding: 3rem 1rem;
   }
+
+  .btn {
+    padding: 0.875rem 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  .section-tag {
+    font-size: 0.75rem;
+    padding: 0.4rem 1rem;
+    letter-spacing: 1px;
+  }
+
+  .section-subtitle {
+    font-size: 0.95rem;
+  }
 }
